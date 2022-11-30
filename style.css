@@ -48,3 +48,14 @@ input {
     width: 15% !important;
     margin-left:320px;  
 }
+
+.sticky{
+    top: 0;
+    position: fixed;
+    background-color: black;
+
+}
+
+.bg{
+    background-color: black;
+}
