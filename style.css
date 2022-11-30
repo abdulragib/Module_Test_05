@@ -23,3 +23,29 @@
     font-size: 60px;
     font-weight: 600;
 }
+
+.slider{
+    margin-right:20px;
+}
+
+.line
+{
+    align-items: center;
+    width:90%;
+    height:10px;
+    border-width:2; 
+    color:black !important; 
+    background-color:black !important;
+}
+
+input { 
+   width:50% !important;
+   display:flex;
+   justify-items: center !important;
+}
+
+.button{
+    width: 15% !important;
+    margin-left:320px;
+    
+}
