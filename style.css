@@ -67,6 +67,17 @@ input {
     background-color: antiquewhite;
 }
 
+.scrolling-wrapper {
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin:10px;
+}
+.card {
+    flex: 0 0 auto;
+    padding:10px;
+  }
+
 
 @media screen and (max-width:768px)
 {
