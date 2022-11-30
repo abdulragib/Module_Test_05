@@ -1,0 +1,25 @@
+#header-text{
+    font-weight: 700;
+    font-size: 130px;
+}
+
+#header-img{
+    width:400;
+    height: 300px;
+    margin-top:180px;
+}
+
+#about-us-img{
+    width:550;
+    height: 450px;
+}
+
+#right-about-us{
+    padding-left:120px;
+}
+
+.about-us{
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+}
