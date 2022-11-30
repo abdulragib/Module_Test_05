@@ -53,9 +53,52 @@ input {
     top: 0;
     position: fixed;
     background-color: black;
-
+    width:100%;
 }
 
 .bg{
     background-color: black;
+}
+
+.hover-box:hover{
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width:768px)
+{
+    #header-text{
+        font-weight: 500;
+        font-size: 60px;
+    }
+
+    #header-img{
+        width:100;
+        height: 130px;
+        margin-top:-40px;
+    }
+
+    #about-us-img{
+        width:200;
+        height: 250px;
+       
+    }
+
+    .mobile-view-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    #right-about-us{
+        padding-left: 0px;
+    }
+
+    .button{
+        width: 30% !important;
+        margin-left:100px;  
+    }
+
+    .mobile-view-body{
+        display: flex;
+        justify-content: center;
+    }
 }
