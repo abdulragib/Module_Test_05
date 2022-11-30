@@ -26,6 +26,9 @@
 
 .slider{
     margin-right:20px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: inline-block;;
 }
 
 .line
@@ -63,6 +66,8 @@ input {
 .hover-box:hover{
     background-color: antiquewhite;
 }
+
+
 
 @media screen and (max-width:768px)
 {
