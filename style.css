@@ -84,6 +84,9 @@ input {
     padding:10px;
   }
 
+.mobile-view-body{
+    padding-left:30px;
+}
 
 @media screen and (max-width:768px)
 {
@@ -93,7 +96,7 @@ input {
     .card{
         width:300px;
         height:300px;
-        
+        margin-bottom: 10px;
     }
     #header-text{
         font-weight: 500;
@@ -127,7 +130,6 @@ input {
     }
 
     .mobile-view-body{
-        display: flex;
-        justify-content: center;
+       padding-left:15px;
     }
 }
