@@ -10,18 +10,18 @@ html,body {
 }
 
 #header-img{
-    width:400;
-    height: 300px;
-    margin-top:180px;
+    width:450px;
+    height: 250px;
+    margin-top:200px;
 }
 
 #about-us-img{
-    width:550;
+    width:550px;
     height: 450px;
 }
 
 #right-about-us{
-    padding-left:120px;
+    padding-left:100px;
 }
 
 .about-us{
@@ -85,8 +85,10 @@ input {
   }
 
 .mobile-view-body{
-    padding-left:30px;
+    padding-left:20px;
 }
+
+
 
 @media screen and (max-width:768px)
 {
@@ -110,7 +112,7 @@ input {
     }
 
     #about-us-img{
-        width:200;
+        width:300px;
         height: 250px;
        
     }
@@ -121,7 +123,7 @@ input {
     }
 
     #right-about-us{
-        padding-left: 0px;
+       padding-left:0px !important;
     }
 
     .button{
